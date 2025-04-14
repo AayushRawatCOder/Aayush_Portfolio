@@ -470,3 +470,12 @@ footer p {
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+.profile-pic {
+  width: 200px; /* Adjust as needed */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ddd; /* Optional: adds a border around the circle */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow */
+}
