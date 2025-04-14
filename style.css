@@ -430,3 +430,43 @@ footer {
 footer p {
   text-align: center;
 }
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.details-container {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.details-container:hover {
+  transform: translateY(-5px);
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.project-title {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
